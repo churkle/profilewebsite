@@ -1,0 +1,17 @@
+h1
+{
+	font-size: 40px;
+	font-family: Verdana;
+}
+
+.divider
+{
+	width: 80%;
+	color: gray;
+}
+
+.btn-row
+{
+	display: block;
+	margin: 10px 0px 0px 0px;
+}
