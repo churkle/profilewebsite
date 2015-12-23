@@ -92,3 +92,12 @@ span.glyphicon-arrow-right
   	letter-spacing: 0;
   	font-weight: 300;
 }
+
+.biography
+{
+	font-family: Helvetica;
+	font-size: 2.0rem;
+	line-height: 2.0rem;
+	letter-spacing: 0;
+	font-weight: 300;
+}
