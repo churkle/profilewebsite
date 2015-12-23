@@ -11,6 +11,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <script src="js/sidebar.js"></script>
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,6 +26,26 @@
   <div class="container-fluid">
     <body>
       <h1 class="text-center">Charles Fei</h1>
+
+      <aside class="sidebar">
+        <!-- <div class="menu-button">
+          <span class="glyphicon glyphicon-list pull-right"></span>
+        </div> -->
+
+        <div class="navbar">
+          <nav class="nav-menu">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="home-list-item">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="about-list-item">
+                <a href="about.html">About</a>
+              </li>
+            </ul>
+          </nav>
+        </div>        
+      </aside>
+
       <hr class="divider">
       <div>
         <img class="img-responsive img-circle center-block" alt="profile-picture" src="img/profile.jpg" width="200" height="200">
@@ -36,8 +61,6 @@
         <div class="col-md-4 text-center">
         </div>
       </div>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
     </body>
