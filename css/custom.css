@@ -22,6 +22,43 @@ span.glyphicon-list
 	font-size: 2.0em;
 }
 
+span.glyphicon-arrow-right
+{
+	font-size: 2.0em;
+}
+
+.menu-button
+{
+	position: fixed;
+  	top: 30px;
+  	right: 20px;
+  	transition: 0.2s linear;
+}
+
+.menu-button:hover
+{
+	cursor: hand;
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.2s linear;
+}
+
+.hide-menu-button
+{
+	position: fixed;
+  	top: 30px;
+  	right: 170px;
+  	transition: 0.2s linear;
+}
+
+.hide-menu-button:hover
+{
+	cursor: hand;
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.2s linear;
+}
+
 .button-icon
 {
 	margin-bottom: 3px;
