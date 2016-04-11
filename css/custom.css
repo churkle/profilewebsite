@@ -4,6 +4,13 @@ h1
 	font-family: Verdana;
 }
 
+h3
+{
+	font-size: 20px;
+	font-family: Arial;
+	white-space: pre-wrap;
+}
+
 .divider
 {
 	width: 80%;
@@ -100,4 +107,9 @@ span.glyphicon-arrow-right
 	line-height: 2.0rem;
 	letter-spacing: 0;
 	font-weight: 300;
+}
+
+.top-buffer
+{
+	margin-top: 120px;
 }
